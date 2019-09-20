@@ -1,0 +1,86 @@
+no diretorio:
+		source <env>/scripts/activate >>> te leva para vm 
+recomendados> env venv ENV VENV 
+
+activate para ativar a vm 
+e deactivate para sair da vm 
+
+'''''''w''hich python
+
+---variaveis de ambiente--- ex> path 
+path :  onde se guarda as informações de comando salvos no pc patra usar posteriormente
+
+na vm----------------------------
+criar o >>>> requirements.txt >> onde armazenamos as binbliotecas e importações
+	>> condição:::: tende de ser uma biblioteca por LINHA sem outra pontuação
+
+OR ----->> NA MAO
+	cmd>>> pip install django
+nele:
+	django
+
+>> cmd cat requirements.txt ele mostra os requerimentos
+
+
+CMD>> pip install --help >>> pip --help
+
+
+
+
+
+0---------------------- criando projeto com o django
+-na vm 
+django-admin startproject <nome do projeto> ------------ assim cria-se outro  diretorio com uma arvore maior:
+		pasta <nome do proketo>
+		---- manage.py
+		---pasta <nome projeto> 
+			----com as configurações aqui dentro
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ============
+
+django-admin startproject <nome do projeto> .
+
+dessa outra maneira a pasta atual fica como a raiz do projeto 
+
+cria-se ali:
+	manage.py
+	__init.py__
+	etc
+>>>>>>>>>>... aquiestando na mesma pagina qu eo requirement.text
+
+
+----------------->>> digitar manage --help e ali se tem os comando ja salvos do django<<<<<---------
+&& independentes sao aplicações dentro de um poreto 
+
+mvc <> mtv (usado no django)
+model view controller <> model template view 
+<quem se comunica com o banco><telas><logica de negovio>
+
+
+--------------------arquitetura logica------------------------
+
+mtv >> cada aplicaoa possui seu proprio mtv<<<
+
+<model><template><view>
+<bd><paginas/html><logica de negocio>
+
+
+>>>rodar ::: python manage.py runserver
+
+>>aplicar migration:: python manage.py migrate
+>>>>>>>>>>>>sqlite 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
