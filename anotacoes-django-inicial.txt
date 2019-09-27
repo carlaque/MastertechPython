@@ -1,4 +1,5 @@
 no diretorio:
+	python -m venv .venv
 		source <env>/scripts/activate >>> te leva para vm 
 recomendados> env venv ENV VENV 
 
